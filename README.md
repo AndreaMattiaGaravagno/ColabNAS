@@ -12,13 +12,13 @@ This section evaluates the hardware-aware feature of ColabNAS by providing resul
 
 The values in the previous table set the constraints for running ColabNAS on each target. RAM and Flash were provided as is, while the MACC upper bound was obtained by multiplying by $10^{4}$ the CoreMark score of the target, in order to allow a fair exploration of the search space. 50x50x3 input size has been used to cope with MCUs' constrained resources. The results for the [Visual Wake Words dataset](https://arxiv.org/abs/1906.05721), a [standard TinyML benchmark](https://arxiv.org/abs/2003.04821), follow.
 
-| Target      | Accuracy | RAM      | Flash    | MACC    | Search Cost |
-| :---        | :---:    | :---:    | :---:    | :---:   | :---:       |
-| L010RBT6    | 69.4%    | 19 kiB   | 8.02 kiB | 227 k   | 2h:11m      | 
-| L151UCY6DTR | 74.5%    | 22.5 kiB | 18.5 kiB | 657 k   | 3h:04m      |
-| L412KBU3    | 77.8%    | 33 kiB   | 44.9 kiB | 2,086 k | 2h:47m      |
+| Target      | TFlite Model | Accuracy | RAM      | Flash    | MACC    | Search Cost |
+| :---        | :---:        | :---:    | :---:    | :---:    | :---:   | :---:       |
+| L010RBT6    | [link](https://drive.google.com/file/d/103XvW4AlDvXwXaIPEtcK3RtAjTlY7Qif/view?usp=drive_link) | 69.4%    | 19 kiB   | 8.02 kiB | 227 k   | 2h:11m      | 
+| L151UCY6DTR | [link](https://drive.google.com/file/d/1-iR347s0TgHGNbCbt3UQBXZ9aulN0st0/view?usp=drive_link) | 74.5%    | 22.5 kiB | 18.5 kiB | 657 k   | 3h:04m      |
+| L412KBU3    | [link](https://drive.google.com/file/d/10f_9eumbIQwTHg0HQJBNdkfezcvpU15y/view?usp=drive_link) | 77.8%    | 33 kiB   | 44.9 kiB | 2,086 k | 2h:47m      |
 
-For more experimental results refer to the following paper. 
+For more experimental results refer to the following paper, which you can find [here](https://arxiv.org/abs/2212.07700), and to [this](https://colab.research.google.com/drive/1VeTPJxo_klFdav727n-YXkjOQUcjTj9w?usp=drive_link) Google Colaboratory notebook. 
 
 # Citation
 If you find the project helpful, please consider citing our paper:
