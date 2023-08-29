@@ -20,6 +20,18 @@ The values in the previous table set the constraints for running ColabNAS on eac
 
 For more experimental results refer to the following paper, which you can find [here](https://arxiv.org/abs/2212.07700), and to [this Google Colaboratory notebook](https://colab.research.google.com/drive/1VeTPJxo_klFdav727n-YXkjOQUcjTj9w?usp=drive_link). 
 
+# How to use
+
+* Upload the stm32tflm script in the files folder of Google Colaboratory's VM
+* In the cell "example of usage" of the Jupyter Notebook modify: 
+  * "path_to_training_set" and "path_to_test_set" variables to use your own dataset ([a small-dataset suggestion](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images?resource=download))
+  * "input_size" to set the network's input size (50x50 is a good starting point for microcontrollers)
+  * "RAM_upper_bound" and "Flash_upper_bound" according to your microcontroller
+  * "MACC_upper_bound" according to the maximum desired number of MACC (a good starting point is given by multiplying the [CoreMark](https://www.eembc.org/coremark/) score of your microcontroller by 10000)
+* Run the cell
+
+In the folder "results", you will find a copy of the trained Keras model and the corresponding fully quantized Tflite model at uint8, ready to run on a microcontroller.
+
 # Citation
 If you find the project helpful, please consider citing our paper:
 
