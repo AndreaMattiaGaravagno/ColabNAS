@@ -18,7 +18,7 @@ The values in the previous table set the constraints for running ColabNAS on eac
 | L151UCY6DTR | [link](https://drive.google.com/file/d/1-iR347s0TgHGNbCbt3UQBXZ9aulN0st0/view?usp=drive_link) | 74.5%    | 22.5 kiB | 18.5 kiB | 657 k   | 3h:04m      |
 | L412KBU3    | [link](https://drive.google.com/file/d/10f_9eumbIQwTHg0HQJBNdkfezcvpU15y/view?usp=drive_link) | 77.8%    | 33 kiB   | 44.9 kiB | 2,086 k | 2h:47m      |
 
-For more experimental results refer to the following paper, which you can find [here](https://arxiv.org/abs/2212.07700), and to [this](https://colab.research.google.com/drive/1VeTPJxo_klFdav727n-YXkjOQUcjTj9w?usp=drive_link) Google Colaboratory notebook. 
+For more experimental results refer to the following paper, which you can find [here](https://arxiv.org/abs/2212.07700), and to [this Google Colaboratory notebook](https://colab.research.google.com/drive/1VeTPJxo_klFdav727n-YXkjOQUcjTj9w?usp=drive_link). 
 
 # Citation
 If you find the project helpful, please consider citing our paper:
