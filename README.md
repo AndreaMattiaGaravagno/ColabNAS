@@ -1,6 +1,8 @@
 # ColabNAS
 A hardware-aware neural architecture search (HW NAS) algorithm targeting low-RAM microcontrollers. It provides CNNs that run on low-RAM microcontrollers, e.g. 40 kiB, using online GPU programs like Google Colaboratory or Kaggle Kernel.
 
+If you want a faster and similar HW NAS at the expense of being less repeatable and precise, check [NanoNAS](https://github.com/AndreaMattiaGaravagno/NanoNAS).
+
 # An overview of its performances
 This section evaluates the hardware-aware feature of ColabNAS by providing results for different hardware targets. To highlight the ColabNAS feature of providing lightweight CNNs, three low-RAM STMicroelectronics (STM) MCUs from the Ultra-low Power series have been selected: the L010RBT6, the L151UCY6DTR and the L412KBU3.
 
