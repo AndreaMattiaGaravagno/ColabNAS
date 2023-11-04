@@ -3,6 +3,10 @@ A hardware-aware neural architecture search (HW NAS) algorithm targeting low-RAM
 
 If you want a faster and similar HW NAS at the expense of being less repeatable and precise, check [NanoNAS](https://github.com/AndreaMattiaGaravagno/NanoNAS).
 
+# News
+* **2023/11** ColabNAS has been accepted for publication in the Future Generation Computer Systems journal!
+* **2023/09** ColabNAS has been cited in a tinyML talk on [YouTube](https://www.youtube.com/watch?v=syY4mwSeC6Q).
+
 # An overview of its performances
 This section evaluates the hardware-aware feature of ColabNAS by providing results for different hardware targets. To highlight the ColabNAS feature of providing lightweight CNNs, three low-RAM STMicroelectronics (STM) MCUs from the Ultra-low Power series have been selected: the L010RBT6, the L151UCY6DTR and the L412KBU3.
 
