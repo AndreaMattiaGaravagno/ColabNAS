@@ -4,7 +4,7 @@ A hardware-aware neural architecture search (HW NAS) algorithm targeting low-RAM
 If you want a faster and similar HW NAS at the expense of being less repeatable and precise, check [NanoNAS](https://github.com/AndreaMattiaGaravagno/NanoNAS).
 
 # News
-* **2023/11** ColabNAS has been accepted for publication in the [Future Generation Computer Systems journal](https://www.sciencedirect.com/science/article/pii/S0167739X23004028)! Experimental Data is available at the following [link](https://drive.google.com/drive/folders/14wkOeM7TcNkZLpWwrVJRjHrxt0LG_7Ad?usp=sharing) in the form of Jupyter Notebook.
+* **2023/11** ColabNAS has been [accepted](https://www.sciencedirect.com/science/article/pii/S0167739X23004028) for publication in the **Future Generation Computer Systems** journal! [Experimental Data](https://drive.google.com/drive/folders/14wkOeM7TcNkZLpWwrVJRjHrxt0LG_7Ad?usp=sharing) is available in the form of Jupyter Notebook.
 * **2023/09** ColabNAS has been cited in a tinyML talk on [YouTube](https://www.youtube.com/watch?v=syY4mwSeC6Q).
 
 # An overview of its performances
