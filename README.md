@@ -41,11 +41,13 @@ In the folder "results", you will find a copy of the trained Keras model and the
 # Citation
 If you find the project helpful, please consider citing our paper:
 
-    @misc{garavagno2022colab,
-        title={Colab NAS: Obtaining lightweight task-specific convolutional neural networks following Occam's razor}, 
-        author={Andrea Mattia Garavagno and Daniele Leonardis and Antonio Frisoli},
-        year={2022},
-        eprint={2212.07700},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
+    @article{GARAVAGNO2024152,
+        title = {ColabNAS: Obtaining lightweight task-specific convolutional neural networks following Occam’s razor},
+        author = {Andrea Mattia Garavagno and Daniele Leonardis and Antonio Frisoli},
+        journal = {Future Generation Computer Systems},
+        volume = {152},
+        pages = {152-159},
+        year = {2024},
+        issn = {0167-739X},
+        doi = {https://doi.org/10.1016/j.future.2023.11.003}
     }
